@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Rest Assured Test Suite">
+<test name = "Rest Assured Test cases">
+<classes>
+
+
+<class name="com.test.RestAssured.GetAllUser"></class>
+<class name="com.test.RestAssured.GetAllUserBDD"></class>
+<class name="com.test.RestAssured.PostAuser"></class>
+<class name="com.test.RestAssured.PostAuserBDD"></class>
+<class name="com.test.RestAssured.PutUser"></class>
+<class name="com.test.RestAssured.PutUserBDD"></class>
+<class name="com.test.RestAssured.PatchUser"></class>
+<class name="com.test.RestAssured.PatchUserBDD"></class>
+<class name="com.test.RestAssured.deleteUser"></class>
+<class name="com.test.RestAssured.deleteUserBDD"></class>
+<class name="com.test.RestAssured.CreateAUserFromExternalFile"></class>
+
+
+</classes>
+</test>
+</suite>
